@@ -1,10 +1,11 @@
 
-import './App.css';
-
+import './index.css';
+import React from "react"
+import Signin from "./components/Signin"
 function App() {
   return (
     <div className="App">
-        <h1>social </h1>
+       <Signin/>
     </div>
   );
 }
