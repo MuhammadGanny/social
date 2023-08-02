@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+/* 
+*{
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0, 0.5) url("./BG3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Netflix-logo {
+  margin-left: 23px;
+  width: 140px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.email-inp,
+  .password-inp {
+    width: 90vw;
+    background: #333 !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container1 {
+    width: auto;
+    height: 540px;
   }
-  to {
-    transform: rotate(360deg);
+  .Netflix-logo {
+    margin-left: 23px;
+    width: 140px;
   }
-}
+  .signin-head {
+    text-align: left;
+  }
+  .help-section {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .new-to-netflix {
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .signin-button {
+    width: 92vw;
+    background-color: #e50914 !important;
+  }
+  .error-message {
+    margin-left: 10px;
+  }
+ */
